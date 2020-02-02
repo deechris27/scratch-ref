@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --hot",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/deechris27/scratch-ref.github.io/issues"
   },
-  "homepage": "https://github.com/deechris27/scratch-ref.github.io#index",
+  "homepage": "https://deechris27.github.io/scratch-ref",
   "dependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
@@ -24,6 +25,7 @@
     "@babel/preset-react": "^7.8.3",
     "@babel/runtime": "^7.8.4",
     "babel-loader": "^8.0.6",
+    "gh-pages": "^2.2.0",
     "html-webpack-plugin": "^3.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
