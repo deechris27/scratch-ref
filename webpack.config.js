@@ -15,7 +15,8 @@ module.exports = {
       rules:[
           {test: /\.js$/, use: 'babel-loader', exclude: [path.resolve(__dirname, "node_modules")]},
           {test: /\.jsx$/, use: 'babel-loader', exclude: [path.resolve(__dirname, "node_modules")]},
-          {test: /\.scss$/, use: 'sass-loader', exclude: [path.resolve(__dirname, "node_modules")]}
+          {test: /\.scss$/, use: 'sass-loader', exclude: [path.resolve(__dirname, "node_modules")]},
+          {test: /\.css$/, use: 'css-loader'}
       ]
   },
 
